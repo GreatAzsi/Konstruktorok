@@ -20,6 +20,10 @@
             Car car2 = new Car("BMW", "320i", 2021);
             Console.WriteLine(car);
             Console.WriteLine(car2);
+            Movie movie = new Movie("Interstellar", 8.7);
+            Movie movie2 = new Movie("Minecraft Movie", 5.6);
+            Console.WriteLine(movie);
+            Console.WriteLine(movie2);
         }
     }
 }
