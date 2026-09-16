@@ -6,6 +6,12 @@
         {
             Dog dog = new Dog("Bodri", "Labrador", 5);
             Dog dog2 = new Dog("Morzsi", "Beagle", 3);
+            Console.WriteLine(dog);
+            Console.WriteLine(dog2);
+            Phone phone = new Phone("Samsung", "Galaxy S24");
+            Phone phone2 = new Phone("Apple", "iPhone 16", 350000);
+            Console.WriteLine(phone);
+            Console.WriteLine(phone2);
         }
     }
 }

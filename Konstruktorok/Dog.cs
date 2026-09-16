@@ -17,5 +17,8 @@ namespace Konstruktorok
             Breed = breed;
             Age = age;
         }
+        public override string ToString() {
+            return $"{Name} : {Breed} : {Age}";
+                }
     }
 }
