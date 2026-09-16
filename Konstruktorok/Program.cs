@@ -24,6 +24,10 @@
             Movie movie2 = new Movie("Minecraft Movie", 5.6);
             Console.WriteLine(movie);
             Console.WriteLine(movie2);
+            Product product = new Product("Laptop", 350000, 20);
+            Product product2 = new Product("Monitor", 120000, 15);
+            Console.WriteLine(product);
+            Console.WriteLine(product2);
         }
     }
 }
