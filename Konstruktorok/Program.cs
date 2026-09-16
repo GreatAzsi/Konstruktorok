@@ -16,6 +16,10 @@
             Player player2 = new Player("Alex", 5, 1200);
             Console.WriteLine(player);
             Console.WriteLine(player2);
+            Car car = new Car("Toyota", "Corolla", 2018);
+            Car car2 = new Car("BMW", "320i", 2021);
+            Console.WriteLine(car);
+            Console.WriteLine(car2);
         }
     }
 }
