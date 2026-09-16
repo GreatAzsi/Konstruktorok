@@ -28,6 +28,11 @@
             Product product2 = new Product("Monitor", 120000, 15);
             Console.WriteLine(product);
             Console.WriteLine(product2);
+            Student student = new Student("Kovács Péter;11A;82");
+            Student student2 = new Student("Nagy Anna;10B;95");
+            Console.WriteLine(student);
+            Console.WriteLine(student2);
+
         }
     }
 }
