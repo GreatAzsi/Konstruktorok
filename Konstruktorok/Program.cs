@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Dog dog = new Dog("Bodri", "Labrador", 5);
+            Dog dog2 = new Dog("Morzsi", "Beagle", 3);
         }
     }
 }
